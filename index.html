@@ -27,6 +27,12 @@ button:hover{border-color:#9ab5a5}.primary{background:var(--green);color:#fff;bo
 .empty{color:#8b978f;font-size:13px;padding:20px}.footer{padding:20px 0 35px;color:#7b867f;font-size:12px;border-top:1px solid var(--line)}
 .modal-backdrop{position:fixed;inset:0;background:#061f1470;display:none;align-items:center;justify-content:center;padding:18px;z-index:5}.modal-backdrop.open{display:flex}.modal{background:#fff;border-radius:18px;max-width:430px;width:100%;padding:22px;box-shadow:0 20px 60px #0004}.modal h3{margin:0 0 5px;font-size:22px}.modal p{margin:0 0 18px;color:var(--muted);font-size:13px}.range-row{display:flex;gap:12px;align-items:center}.range-row input{width:100%}.bigscore{font-size:28px;font-weight:950;color:var(--green);min-width:48px;text-align:right}.actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
 @media(max-width:700px){.tier{grid-template-columns:78px 1fr}.tier-label b{font-size:27px}.tier-label span{font-size:9px}.card{width:118px}.status{width:100%;margin-left:0}}
+
+.attribution{display:flex;align-items:center;gap:10px;padding:18px 0 4px}
+.attribution img{width:36px;height:36px;border-radius:50%;object-fit:cover;background:#dce5df;border:1px solid var(--line)}
+.attribution span{font-size:13px;color:var(--muted);font-weight:650}
+.attribution b{color:var(--ink)}
+
 </style>
 </head>
 <body>
@@ -50,8 +56,9 @@ button:hover{border-color:#9ab5a5}.primary{background:var(--green);color:#fff;bo
 <div class="poolbox" id="pool"></div>
 </section>
 
-<div class="footer">Fan scores and rankings are personal, user-created data. Player list reflects the current Celtics roster available when this page was built.</div>
-</main>
+<div class="footer">Fan scores and rankings are personal, user-created data. Player list reflects the current Celtics roster available when this page was built.
+<div class="attribution"><img src="ariana-shokrollahi.jpg" alt="Ariana Shokrollahi"><span>Made by <b>Ariana Shokrollahi</b></span></div>
+</div></main>
 
 <div class="modal-backdrop" id="modal">
 <div class="modal">
